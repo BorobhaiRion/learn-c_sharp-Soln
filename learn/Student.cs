@@ -8,13 +8,13 @@ using System.Xml.Linq;
 
 namespace learn
 {
-    class Student:Human
+    class Student:Human /// this is Inheritence.It has inherited all the properties of human class and also 'overrided' the 'virtual' properties.
     {
 
         //Override block
 
       
-        public override void Introduce_Speech()
+        public override void Introduce_Speech() // this is the block what was declared as virtual in the parent class. This is called 'overriding' the method.
         {
             Console.WriteLine("Ami ekjon Manusher Baccha Student ");
         }

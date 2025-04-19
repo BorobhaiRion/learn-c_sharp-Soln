@@ -9,7 +9,7 @@ namespace learn
 {
     class Start
     {
-        enum Day  //this is enum  
+        enum Day  //this is enum  :An enum gives meaningful names to numeric values** so your code is easier to read and maintain.
         {
             Sunday,
             Monday,
@@ -21,7 +21,7 @@ namespace learn
         }
         static void Main(string[] args)
         {
-            //constant  
+            //constant  :The const keyword is used to declare a constant value that cannot be changed after it's assigned.
             const String messege = "Choose a Number [1/2]. 1 for alive 2 for dead!! and anything else  for exit. ";
             Console.WriteLine(messege);
             int x;
@@ -51,7 +51,7 @@ namespace learn
 
                     Console.WriteLine("Amar beche thakar kisui nai!!!");
                     Student One = new Student();
-                    One.Name = "Zarin";
+                    One.Name = "Student_Rion";
                     One.Age = 20;
                     One.show();
 
@@ -89,7 +89,7 @@ namespace learn
 
 
 
-            //jagged array
+            //jagged array :A jagged array is an array of arrays, where each inner array can have a different size or length.
             char[][] smiley = new char[][]
        {
     new char[] { ' ', '@', ' ', ' ', ' ', '@', ' ' },
@@ -98,7 +98,7 @@ namespace learn
        };
 
             // Print the smiley face
-            foreach (char[] row in smiley)
+            foreach (char[] row in smiley) //foreach loop
             {
                 foreach (char c in row)
                 {
